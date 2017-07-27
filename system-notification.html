@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<meta name="keywords" content="admin, dashboard, bootstrap, template, flat, modern, theme, responsive, fluid, retina, backend, html5, css, css3">
+		<meta name="description" content="">
+		<meta name="author" content="ThemeBucket">
+		<link rel="shortcut icon" href="#" type="image/png">
+
+		<title>询价网站</title>
+
+		<!--dynamic table-->
+		<link href="js/advanced-datatable/css/demo_page.css" rel="stylesheet" />
+		<link href="js/advanced-datatable/css/demo_table.css" rel="stylesheet" />
+		<link rel="stylesheet" href="js/data-tables/DT_bootstrap.css" />
+
+		<!--pickers css-->
+  		<link rel="stylesheet" type="text/css" href="js/bootstrap-datepicker/css/datepicker-custom.css" />
+
+		<!--common-->
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style-responsive.css" rel="stylesheet">
+
+		<link href="css/globle.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="sticky-header">
+
+		<section>
+			<!-- left side start-->
+			<div class="left-side sticky-left-side">
+
+				<!--logo and iconic logo start-->
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
+				</div>
+
+				<div class="logo-icon text-center">
+					<a href="index.html"><img src="images/logo_icon.png" alt=""></a>
+				</div>
+				<!--logo and iconic logo end-->
+
+				<div class="left-side-inner">
+
+					<!-- visible to small devices only -->
+					<div class="visible-xs hidden-sm hidden-md hidden-lg">
+						<div class="media logged-user">
+							<img alt="" src="images/photos/user-avatar.png" class="media-object">
+							<div class="media-body">
+								<h4><a href="#">张啸</a></h4>
+								<span>（3200 6546 3265）</span>
+							</div>
+						</div>
+
+						<h5 class="left-nav-title">用户信息</h5>
+						<ul class="nav nav-pills nav-stacked custom-nav">
+							<li>
+								<a href="#"><i class="fa fa-sign-out"></i> <span>退出</span></a>
+							</li>
+						</ul>
+					</div>
+
+					<!--sidebar nav start-->
+					<ul class="nav nav-pills nav-stacked custom-nav">
+						<li>
+							<a href="index.html"><i class="icon-menu icon-menu0"></i> <span>邀约报价</span></a>
+						</li>
+						<li class="menu-list">
+							<a href=""><i class="icon-menu icon-menu1"></i> <span>邀约管理</span></a>
+							<ul class="sub-menu-list">
+								<li>
+									<a href="launch-invitation.html"> 发起邀约</a>
+								</li>
+								<li>
+									<a href="our-invitation.html"> 本方邀约</a>
+								</li>
+								<li>
+									<a href="other-invitation.html"> 他方邀约</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-list">
+							<a href=""><i class="icon-menu icon-menu2"></i> <span>合同管理</span></a>
+							<ul class="sub-menu-list">
+								<li>
+									<a href="in-contract.html"> 已订立合同</a>
+								</li>
+								<li>
+									<a href="no-contract.html"> 未订立合同</a>
+								</li>
+								<li>
+									<a href="draft-contract.html"> 草稿合同</a>
+								</li>
+								<li>
+									<a href="transaction-history.html"> 历史成交</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu-list">
+							<a href=""><i class="icon-menu icon-menu3"></i> <span>仓单管理</span></a>
+							<ul class="sub-menu-list">
+								<li>
+									<a href="warehousing-application.html"> 入库申请</a>
+								</li>
+								<li>
+									<a href="library-application.html"> 出库申请</a>
+								</li>
+								<li>
+									<a href="storage-information.html"> 出入库查询</a>
+								</li>
+								<li>
+									<a href="warehouse-query.html"> 仓单查询</a>
+								</li>
+								<li>
+									<a href="warehouse-details.html"> 仓单明细</a>
+								</li>
+
+							</ul>
+						</li>
+
+						<li class="menu-list">
+							<a href=""><i class="icon-menu icon-menu4"></i> <span>资金管理</span></a>
+							<ul class="sub-menu-list">
+								<li>
+									<a href="access-payment.html"> 出入金</a>
+								</li>
+								<li>
+									<a href="funds-flow.html"> 资金流水</a>
+								</li>
+								<li>
+									<a href="check-cancellation.html"> 签解约</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="menu-list nav-active">
+							<a href=""><i class="icon-menu icon-menu5"></i> <span>系统管理</span></a>
+							<ul class="sub-menu-list">
+								<li>
+									<a href="change-password.html"> 密码修改</a>
+								</li>
+								<li class="active">
+									<a href="system-notification.html"> 系统公告 <span class="badge badge-important">15</span></a>
+								</li>
+								<li>
+									<a href="frequent-contacts.html"> 常用联系人</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<!--sidebar nav end-->
+
+				</div>
+			</div>
+			<!-- left side end-->
+			
+			<!-- right side start-->
+			<div class="right-side online-mechanism">				
+				<div class="close-tab"><span>在线机构</span><img src="images/left-left.png" /></div>
+				<div class="open-tab">
+					<div class="open-header"><span>在线机构</span><img src="images/right-right.png" /></div>
+					<div class="company-wrap">
+						<div class="company-item open">
+							<div class="header">
+								<div class="name"><i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i>稀土公司1[15]</div>
+								<div class="btn-box">
+									<a href="index.html" class="btn btn-default">询价</a>
+									<a href="add-contract.html" class="btn btn-default">新建合同</a>
+								</div>
+							</div>
+							<ul class="list-wrap list-unstyled">
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="company-item">
+							<div class="header">
+								<div class="name"><i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i>稀土公司2[7]</div>
+								<div class="btn-box">
+									<a href="add-contract.html" class="btn btn-default">新建合同</a>
+								</div>
+							</div>
+							<ul class="list-wrap list-unstyled">
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="company-item">
+							<div class="header">
+								<div class="name"><i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i>稀土公司3[24]</div>
+								<div class="btn-box">
+									<a href="add-contract.html" class="btn btn-default">新建合同</a>
+								</div>
+							</div>
+							<ul class="list-wrap list-unstyled">
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="company-item">
+							<div class="header">
+								<div class="name"><i class="fa fa-caret-right"></i><i class="fa fa-caret-down"></i>稀土公司4[54]</div>
+								<div class="btn-box">
+									<a href="add-contract.html" class="btn btn-default">新建合同</a>
+								</div>
+							</div>
+							<ul class="list-wrap list-unstyled">
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+								<li class="list-item">
+									<img src="images/icon-face-small.png" /><span>张筱雨</span>
+									<div class="clearfix user-info">
+										<div class="pull-left face">
+											<img src="images/icon-face.png" />
+										</div>
+										<div class="pull-left">
+											<p class="p0">张筱雨</p>
+											<p class="p1"><i class="fa fa-mobile"></i><span>15850448751</span></p>
+											<p class="p1"><i class="fa fa-phone"></i><span>025-6545871</span></p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>						
+					</div>
+				</div>
+
+			</div>
+			<!-- right side start-->
+
+			<!-- main content start-->
+			<div class="main-content" >
+
+				<!-- header section start-->
+				<div class="header-section">
+
+					<div class="pull-left header-gold">
+						<span>总资金：1240</span><span>可用资金：840</span><span>冻结资金：540</span>
+					</div>
+					<!--notification menu start -->
+					<div class="menu-right">
+						<ul class="notification-menu">
+							<li>
+								<a href="javascript:window.location.reload();" class="btn btn-default info-number"> <img src="images/icon-refresh.png" /> </a>
+							</li>
+							<li>
+								<a href="#" class="btn btn-default dropdown-toggle info-number" data-toggle="dropdown"> <img src="images/icon-bell.png" /> <span class="badge">99+</span> </a>
+								<div class="dropdown-menu dropdown-menu-head pull-right">
+									<h5 class="title">公告</h5>
+									<ul class="dropdown-list normal-list">
+										<li class="new">
+											<a href=""> <span class="label label-danger"><i class="fa fa-bolt"></i></span> <span class="name">关于交易市场休市休假的通知... </span> <em class="small">06/16</em> </a>
+										</li>
+										<li class="new">
+											<a href=""> <span class="label label-danger"><i class="fa fa-bolt"></i></span> <span class="name">关于交易市场休市休假的通知... </span> <em class="small">06/16</em> </a>
+										</li>
+										<li class="new">
+											<a href=""> <span class="label label-danger"><i class="fa fa-bolt"></i></span> <span class="name">关于交易市场休市休假的通知... </span> <em class="small">06/16</em> </a>
+										<li class="new">
+											<a href="system-notification.html">全部消息</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="user-box">
+								<img src="images/icon-user.png" /> 张筱雨   3200 6546 3265<span style="margin:0 5px;">|</span><a href="login.html">退出</a>								
+							</li>
+
+						</ul>
+					</div>
+					<!--notification menu end -->
+
+				</div>
+				<!-- header section end-->
+
+				<!-- page heading start-->
+				<div class="page-heading">
+					<ul class="breadcrumb">
+						<li >
+							系统管理
+						</li>
+						<li class="active">
+							系统公告
+						</li>
+					</ul>
+				</div>
+				<!-- page heading end-->
+				
+				<!--body wrapper start-->
+				<div class="wrapper">
+					<div class="row">
+						<div class="col-lg-12">
+							<form class="form-horizontal inline-form">
+								<div class="form-group m-left15">			
+									<label class="control-label text-left" for="checkbox"><input class="pull-left m-right5" type="checkbox" id="checkbox" />有效公告：</label>																				
+								</div>	
+								<div class="form-group">
+									<label class="pull-left width100 control-label">主题：</label>											
+									<div class="pull-left width150">
+										<input type="text" placeholder="请输入主题" class="form-control" />
+									</div>
+								</div>	
+								<div class="form-group">
+			                        <label class="pull-left width100 control-label">交收日期</label>
+			                        <div class="pull-left width250">
+                                        <div class="input-group input-large custom-date-range" data-date="13/07/2013" data-date-format="mm/dd/yyyy">
+                                            <input type="text" class="form-control dpd1" placeholder="交收日期" name="from">
+                                            <span class="input-group-addon">To</span>
+                                            <input type="text" class="form-control dpd2" placeholder="交收日期" name="to">
+                                        </div>
+                                    </div>
+			                    </div>												
+								<div class="form-group m-left15">
+									<div class="pull-left width100">
+										<button type="submit" class="btn btn-primary form-control">
+											查询
+										</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<section class="panel">
+								<div class="panel-body">
+									<div class="adv-table table-wrap">
+										<table class="display table table-bordered dataTable" id="hidden-table-info">
+											<thead>
+												<tr role="row">
+													<th>序号</th>
+													<th>主题</th>
+													<th>发布机构</th>
+													<th class="sorting">发布时间</th>
+													<th class="sorting">失效时间</th>
+												</tr>
+											</thead>
+
+											<tbody role="alert" aria-live="polite" aria-relevant="all">
+												<tr class="gradeA odd">
+													<td>1</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>													
+												</tr>												
+												<tr class="gradeA even">
+													<td>2</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>
+												</tr>
+												<tr class="gradeA odd text-gray">
+													<td>3</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>													
+												</tr>												
+												<tr class="gradeA even">
+													<td>4</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>
+												</tr>
+												<tr class="gradeA odd">
+													<td>5</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>													
+												</tr>												
+												<tr class="gradeA even text-gray">
+													<td>6</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>
+												</tr>
+												<tr class="gradeA odd">
+													<td>7</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>													
+												</tr>												
+												<tr class="gradeA even">
+													<td>8</td>
+													<td><a href="notification-details.html">关于调整交易时间公告</a></td>
+													<td>江苏大圆银泰商品合约交易市场</td>
+													<td>2016-05-22</td>													
+													<td>2016-06-03</td>
+												</tr>
+											</tbody>
+										</table>
+										
+									</div>
+									<div class="row-fluid">
+											<div class="span6">
+												<div class="dataTables_info" id="hidden-table-info_info">
+													共计：45条，3页
+												</div>
+											</div>
+											<div class="span6">
+												<div class="dataTables_paginate paging_bootstrap pagination">
+													<ul>
+														<li class="prev disabled">
+															<a href="#">← 上一页</a>
+														</li>
+														<li class="active">
+															<a href="#">1</a>
+														</li>
+														<li>
+															<a href="#">2</a>
+														</li>
+														<li>
+															<a href="#">3</a>
+														</li>
+														<li class="next">
+															<a href="#">下一页 → </a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+								</div>
+
+							</section>
+						</div>
+					</div>
+				</div>
+				<!--body wrapper end-->
+
+				<!--footer section start-->
+				<footer class="text-center">
+
+					<p>
+						江苏大圆银泰商品合约交易市场版权所有，增值电信业务经营许可证：苏B1-20130063 苏B2-20130224
+					</p>
+
+					<div>
+						Copyright @ 2015 JSDYYT ALL Rights Reservsd. 苏ICP备12006275号
+					</div>
+
+				</footer>
+				<!--footer section end-->
+
+			</div>
+			<!-- main content end-->
+		</section>
+		
+		<!-- Placed js at the end of the document so the pages load faster -->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/modernizr.min.js"></script>
+
+		<!--dynamic table-->
+		<script type="text/javascript" language="javascript" src="js/advanced-datatable/js/jquery.dataTables.js"></script>
+		<script type="text/javascript" src="js/data-tables/DT_bootstrap.js"></script>
+		
+				
+		<!--pickers plugins-->
+		<script type="text/javascript" src="js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script type="text/javascript" src="js/bootstrap-daterangepicker/daterangepicker.js"></script>
+		<script>
+			// disabling dates
+		    var nowTemp = new Date();
+		    var now = new Date(nowTemp.getFullYear(), nowTemp.getMonth(), nowTemp.getDate(), 0, 0, 0, 0);
+		
+		    var checkin = $('.dpd1').datepicker({'format': 'yyyy/mm/dd',
+		        onRender: function(date) {
+		            return date.valueOf() < now.valueOf() ? 'disabled' : '';
+		        }
+		    }).on('changeDate', function(ev) {
+		            if (ev.date.valueOf() > checkout.date.valueOf()) {
+		                var newDate = new Date(ev.date);
+		                newDate.setDate(newDate.getDate() + 1);
+		                checkout.setValue(newDate);
+		            }
+		            checkin.hide();
+		            $('.dpd2')[0].focus();
+		        }).data('datepicker');
+		    var checkout = $('.dpd2').datepicker({'format': 'yyyy/mm/dd',
+		        onRender: function(date) {
+		            return date.valueOf() <= checkin.date.valueOf() ? 'disabled' : '';
+		        }
+		    }).on('changeDate', function(ev) {
+		            checkout.hide();
+		        }).data('datepicker');
+		        
+		</script>
+		<!--common scripts for all pages-->
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>
